@@ -1,0 +1,69 @@
+
+   <div class="container">
+
+    <div class="row pt-3" >
+        <div class="col">
+            <h1 class="text-center">Listado General</h1>
+
+        </div>
+    </div>
+
+    <form class="row  m-4" role="search" method="get" action="/destinos/listado/">
+        <input class="col form-control m-2" type="search" placeholder="id..." aria-label="Search" id="id" name="id">
+        <button class="col btn btn-secondary m-2" type="submit">Buscar</button>
+
+        <div class="col-4"></div>
+        <a href="/destinos/alta/" class="col-3 btn btn-dark m-3">Agregar Destino</a>
+    </form>
+
+    <div class="row" >
+        <div class="col">
+
+            <table class="table table-hover table-striped table-bordered table-dark">
+                <thead>
+                    <tr class="text-center">
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Descripcion</th>
+                        <th>Imagen</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {{#each data}}   
+                    <tr>
+                       <td>{{id}}</td>
+                       <td>{{nombre}}</td>
+                       <td>{{descripcion}}</td>
+                       <td style="width: 20%;"><img src="{{imagen}}" alt="Imagen del diseño" style="width: 100%;"></td>
+                       <td><a href="/destinos/modificar/{{id}}" class="btn btn-outline-success">Editar</a></td>
+                       <td><a href="/destinos/eliminar/{{id}}" class="btn btn-outline-danger">Eliminar</a></td> 
+                    </tr>
+                    {{/each}}
+
+                </tbody>
+
+
+            </table>
+
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <div class="row justify-content-center">
+                <div class="col-8 d-flex justify-content-center">
+                    <div class="d-grid gap-2 col-6 mx-auto pb-5">
+                        <a href="/destinos/" class="btn btn-dark" type="button">Retornar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

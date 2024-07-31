@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.descripcionParrafo{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.nav-link{
+  color: white;
+}
+.inicio{
+  display: flex; 
+  padding: 1.5rem;
+}
+.descripcion{
+  font-size: 2rem;
+  text-align: center;
+  padding: 10rem 3rem;
+}
+.titulo{
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+/*destinos*/
+.destinos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+#destinoTitulo{
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*eventos y festividades*/
+.eventoTitulo{
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*formulario de contacto*/
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+.servicio{
+  width: 10rem;
+  padding: 0.5rem;
+}
+form{
+  width: 50rem;
+  padding: 1rem;
+}
+
+/* pie de pagina */
+.pieDePagina{
+  width: 100%;
+  background-color: #1d2225;
+}
+
+.pieDePagina .grupo-1{
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  padding: 45px 0px;
+}
+.pieDePagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pieDePagina .grupo-1 .box figure img{
+  width: 200px;
+  padding-bottom: 5rem;
+}
+.pieDePagina .grupo-1 .box h2{
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+}
+.pieDePagina .grupo-1 .box p{
+  margin-bottom: 10px;
+}
+.pieDePagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px; 
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: #0d2033 ;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pieDePagina .grupo-1 .red-social a:hover{
+  color:rgb(123, 134, 139) ;
+}
+.pieDePagina .grupo-2{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width:800px) {
+  .pieDePagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    padding: 25px 0px;
+  }
+  .mapa{
+    width: 350px;
+    height: 200px;
+  }
+  
+}

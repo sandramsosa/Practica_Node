@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6ef9d76114.js" crossorigin="anonymous"></script>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+  <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+  <title>Rutas Argentinas</title>
+</head>
+
+<body>
+  <div class="contenedorr">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/logo.ico" alt="Logo" width="70" height="60" style="border:0;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destinoTitulo" >Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#eventos">Eventos y festividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactanosTitulo">Contactanos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- presentacion de pagina -->
+      <section class="inicio">
+        <div class="imagenPrincipla">
+         <img src="./images/img2.png" alt="imagen"> 
+        </div>
+        <div class="presentacion">
+          <h1 class="titulo">RUTAS ARGENTINAS</h1>
+          <p class="descripcion">Rutas Argentinas, es una empresa dedicada a mostrarte los tesoros escondidos de nuestro maravilloso país. Desde las impresionantes Cataratas del Iguazú hasta los vastos paisajes de la Patagonia, estamos comprometidos a ofrecerte experiencias de viaje únicas y memorables.</p>
+        </div> 
+      </section>
+      
+      <!-- destinos Norte, Centro, Sur, Cuyo, Litoral, Patagonia. -->
+      <section class="destinos">
+        <h1 id="destinoTitulo">DESTINOS</h1>
+        <p class="descripcionParrafo">Vive la Experiencia de Viajar! En Rutas Argentinas, cada destino tiene algo especial que ofrecer. Nuestra misión es ayudarte a descubrir los secretos y maravillas de nuestro país. Ya sea que busques aventura, cultura o relax, tenemos el viaje perfecto para ti.</p>
+        <h1>Norte Argentino</h1>
+        <table>
+          <td>Nombre</td>
+          <td>Descripcion</td>
+          <td><img src="" alt="norte"></td>
+        </table>
+        <h1>Centro Argentino</h1>
+        <table>
+          <td>Nombre</td>
+          <td>Descripcion</td>
+          <td><img src="" alt="norte"></td>
+        </table>
+        <h1>Sur Argentino</h1>
+        <table>
+          <td>Nombre</td>
+          <td>Descripcion</td>
+          <td><img src="" alt="norte"></td>
+        </table>
+      </section>
+      <section class="eventos">
+        <h1 class="eventoTitulo" id="eventos">Eventos y festividades</h1>
+        <p class="descripcionParrafo">Celebra con Nosotros las Tradiciones Argentinas! En Rutas Argentinas, te llevamos a vivir las celebraciones más emblemáticas de nuestro país. Sumérgete en la cultura, la música y las tradiciones que hacen de Argentina un destino único y vibrante.</p>
+          <table  id="eventosFestividades">
+            <tbody>
+              <tr>
+                <th>region</th>
+                <td>lugar</td>
+                <td>descripcionde evento</td>
+                <td><img src="" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+      </section>
+      <section class="contacto">
+        <h1 id="contactanosTitulo">CONTACTANOS</h1>
+        <img class="servicio" src="./images/servicio-al-cliente.png" alt="servicio">
+        <p class="descripcionParrafo">¿Listo para tu próxima aventura? Ponte en contacto con nosotros hoy mismo y comienza a descubrir Argentina como nunca antes.</p>
+        <form action="get" data-bs-theme="dark">
+          <div class="mb-5">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-secondary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="pieDePagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="./images/logo.ico" alt="logo">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, architecto ad? Odio odit a!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, architecto ad? Odio odit a!</p>
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>  
+        </div>
+        <div class="box">
+          <h2>ENCONTRANOS</h2>
+          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15620.410917487792!2d-58.37691464484201!3d-34.60955011792349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1720623472242!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2024 <b>SMS</b> - Todos los Derechos Reservados.</small>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>    
+</body>
+
+</html>

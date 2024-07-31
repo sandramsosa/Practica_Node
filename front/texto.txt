@@ -1,0 +1,59 @@
+
+
+
+
+INSERT INTO `norte`(`nombre`, `descripcion`, `imagen`, `id_region`) VALUES ('Salta','Conocida como "La Linda", Salta te espera con sus paisajes montañosos, viñedos y arquitectura colonial. No te pierdas el Tren a las Nubes, una experiencia única en el mundo.','./images/salta.png','1'),('Jujuy','Explora la Quebrada de Humahuaca, Patrimonio de la Humanidad, y maravíllate con el Cerro de los Siete Colores en Purmamarca.','./images/jujuy.png','1'),('Tucumán','Visita la Casa Histórica donde se declaró la independencia argentina y disfruta de la exuberante selva de las Yungas.','./images/tucuman.png','1');
+
+
+Norte Argentino
+
+Sumérgete en la Cultura y la Naturaleza del Norte
+
+Salta: Conocida como "La Linda", Salta te espera con sus paisajes montañosos, viñedos y arquitectura colonial. No te pierdas el Tren a las Nubes, una experiencia única en el mundo.
+Jujuy: Explora la Quebrada de Humahuaca, Patrimonio de la Humanidad, y maravíllate con el Cerro de los Siete Colores en Purmamarca.
+Tucumán: Visita la Casa Histórica donde se declaró la independencia argentina y disfruta de la exuberante selva de las Yungas.
+
+
+Centro Argentino
+El Corazón de Argentina te Espera
+
+Córdoba: Recorre las sierras y disfruta de la vibrante vida cultural y nocturna de la ciudad de Córdoba. Descubre pueblos pintorescos como La Cumbrecita y Villa General Belgrano.
+San Luis: Aventúrate en el Parque Nacional Sierra de las Quijadas y relájate en las termas de San Gerónimo.
+Santa Fe: Navega por el río Paraná y visita Rosario, cuna de la bandera argentina, con su hermosa costanera y oferta cultural.
+
+
+Sur Argentino
+Explora la Magia y la Inmensidad de la Patagonia
+
+Bariloche: Disfruta de los lagos cristalinos, los cerros nevados y la deliciosa gastronomía. Ideal para el turismo de aventura y el esquí.
+El Calafate: Maravíllate con el majestuoso Glaciar Perito Moreno y explora el Parque Nacional Los Glaciares.
+Ushuaia: Conocida como "La Ciudad del Fin del Mundo", ofrece paisajes espectaculares y la posibilidad de navegar por el Canal Beagle.
+
+
+
+
+Planifica tu Aventura
+En Rutas Argentinas, cada destino tiene algo especial que ofrecer. Nuestra misión es ayudarte a descubrir los secretos y maravillas de nuestro país. Ya sea que busques aventura, cultura o relax, tenemos el viaje perfecto para ti.
+
+
+eventos
+Norte Argentino
+Una Región Rica en Cultura y Tradición
+
+Carnaval de Humahuaca (Jujuy): Celebra uno de los carnavales más vibrantes y coloridos del país, donde la música, los bailes y los disfraces llenan las calles de alegría.
+Fiesta Nacional de la Pachamama (Tucumán): Participa en esta festividad ancestral que honra a la Madre Tierra con rituales, música y danzas tradicionales.
+Festival de la Serenata a Cafayate (Salta): Disfruta de una semana de música folclórica en el corazón de los valles calchaquíes, rodeado de viñedos y paisajes espectaculares.
+
+
+Centro Argentino
+El Alma Festiva del País
+
+Fiesta Nacional de la Cerveza (Oktoberfest) (Córdoba): Únete a la celebración en Villa General Belgrano, donde la tradición alemana se mezcla con la alegría argentina en una fiesta llena de música, bailes y, por supuesto, mucha cerveza.
+Cosquín Rock (Córdoba): Vive uno de los festivales de rock más importantes de Latinoamérica, con una impresionante cartelera de artistas nacionales e internacionales.
+Fiesta Nacional del Tango (La Falda, Córdoba): Sumérgete en el mundo del tango con conciertos, milongas y espectáculos que celebran esta icónica danza argentina.
+Sur Argentino
+Celebraciones en la Inmensidad Patagónica
+
+Fiesta Nacional del Lago (El Calafate): Celebra en el entorno único de la Patagonia con actividades deportivas, conciertos y espectáculos al aire libre junto al majestuoso Lago Argentino.
+Festival Nacional de la Noche Más Larga (Ushuaia): Experimenta la noche más larga del año en el fin del mundo, con eventos culturales, música y gastronomía típica.
+Fiesta Nacional del Chocolate (Bariloche): Disfruta de una semana dedicada al chocolate en todas sus formas, con actividades para toda la familia en el pintoresco marco de la ciudad de Bariloche.
